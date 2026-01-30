@@ -1,0 +1,101 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 14px;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #1B244A;
+}
+
+.home {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.guest {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    border-radius: 10px;
+    color: #F94F6D;
+    background-color: black;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.buttons button {
+    border: 1px solid #9AABD8;
+    border-radius: 10px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    width: 25%;
+    height: 60%;
+    font-size: 13px;
+    padding: 2px;
+    transition: all 0.2s ease;
+}
+.buttons button:hover {
+    background-color: #141B38;
+    cursor: pointer;
+}
+
+.new-game {
+    width: 135px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-game button {
+    border: 2px solid #9AABD8;
+    border-radius: 10px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    width: 80%;
+    height: 60%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.new-game button:hover {
+    background-color: #141B38;
+    cursor: pointer;
+}
